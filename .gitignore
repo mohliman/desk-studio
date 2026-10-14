@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.local
+*.tsbuildinfo
+
+# Full-stack runtime state
+data/
+server/dist/
+.env
+.env.*
+!.env.example
+*.sqlite*

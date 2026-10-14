@@ -1,0 +1,17 @@
+{
+  "passed": 12,
+  "checks": [
+    "The intended locally served typography is loaded",
+    "Focus panel task completion updates progress immediately",
+    "Focus panel traps keyboard focus, closes with Escape and restores its opener",
+    "The ledger and reload reflect a task completed in the panel",
+    "Focus panel has zero automated accessibility violations",
+    "Reduced motion preserves the complete panel without animation",
+    "Mobile prioritises attention and uses a full-width working panel",
+    "Primary compositions have no page overflow at 320, 390, 768 and 1100 pixels",
+    "Register sorting works with keyboard, direction, reload and status filtering",
+    "Register Focus updates its row, restores focus and persists task completion",
+    "Client dossier derives progress and outstanding amounts from changed records",
+    "Mobile line items remain readable and accessible while printing retains the table"
+  ]
+}

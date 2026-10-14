@@ -1,0 +1,66 @@
+[
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "/projects",
+    "violations": []
+  },
+  {
+    "route": "/projects/project-1",
+    "violations": []
+  },
+  {
+    "route": "/clients",
+    "violations": []
+  },
+  {
+    "route": "/clients/client-1",
+    "violations": []
+  },
+  {
+    "route": "/invoices",
+    "violations": []
+  },
+  {
+    "route": "/invoices/invoice-1",
+    "violations": []
+  },
+  {
+    "route": "/settings",
+    "violations": []
+  },
+  {
+    "route": "project dialog",
+    "violations": []
+  },
+  {
+    "route": "New client dialog",
+    "violations": []
+  },
+  {
+    "route": "New client validation",
+    "violations": []
+  },
+  {
+    "route": "Add task dialog",
+    "violations": []
+  },
+  {
+    "route": "Add task validation",
+    "violations": []
+  },
+  {
+    "route": "New invoice dialog",
+    "violations": []
+  },
+  {
+    "route": "New invoice validation",
+    "violations": []
+  },
+  {
+    "route": "mobile overview",
+    "violations": []
+  }
+]

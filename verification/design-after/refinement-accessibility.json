@@ -1,0 +1,10 @@
+[
+  {
+    "route": "/clients/client-1",
+    "violations": []
+  },
+  {
+    "route": "/invoices/invoice-1",
+    "violations": []
+  }
+]

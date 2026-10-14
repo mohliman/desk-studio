@@ -1,0 +1,35 @@
+{
+  "passed": 23,
+  "checks": [
+    "Desktop overview renders",
+    "Required client validation is visible",
+    "Create client and reject invalid email",
+    "Create related project with budget and date validation",
+    "Add and complete project task; progress updates",
+    "Board and list views, confirmed task deletion",
+    "Unsaved cancellation can be kept or discarded",
+    "Project edits saved",
+    "Task edit saved",
+    "Browser Back protects dirty forms with keep and discard choices",
+    "Create related invoice with correct multi-line total",
+    "Invoice edit and date-order validation",
+    "Paid invoice reduces overview outstanding total; project count is derived",
+    "Full workflow persists after reload",
+    "Client edits and archive retain invoice and project relationships",
+    "Project restore and archive",
+    "Search no-results state",
+    "Print layout renders to PDF",
+    "Reset cancellation, confirmed reset, and reset persistence",
+    "Invalid stored data recovers visibly",
+    "Mobile overview, navigation and forms have no page overflow",
+    "All main routes fit the mobile viewport; wide tables scroll within their container",
+    "No browser JavaScript errors"
+  ],
+  "errors": [],
+  "viewport": {
+    "desktop": "1440 × 1000",
+    "mobile": "390 × 844"
+  },
+  "browser": "Installed Microsoft Edge, headless",
+  "preview": "http://127.0.0.1:5180"
+}

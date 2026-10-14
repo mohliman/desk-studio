@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Registration loads private seeded workspace",
+    "Client form persists a real backend record",
+    "Record survives browser reload",
+    "Owner creates an email-bound invitation",
+    "Task assignment saves to the team workspace",
+    "Desktop overview accessibility scan",
+    "Six routes fit mobile width",
+    "Sign out and sign in restore account records"
+  ],
+  "errors": [],
+  "violations": []
+}
