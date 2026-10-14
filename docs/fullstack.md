@@ -76,7 +76,7 @@ DATABASE_PATH=/data/app.sqlite
 
 Production startup requires an HTTPS APP_ORIGIN. The reverse proxy must terminate HTTPS; the backend can listen over internal HTTP. This implementation is designed for a single application instance sharing one persistent SQLite database. A container's temporary filesystem is not durable storage. Back up the database with SQLite's online backup mechanism or while the app is stopped; include the WAL consistently if copying a running database. Migrations are tracked in `schema_migrations`; the schema initializes automatically on first start.
 
-Docker packaging was prepared but not executed. No remote deployment was made. Email ownership verification, password recovery, managed backups, and operational monitoring remain production work. Invitation binding uses account email, which is not externally verified in this portfolio version. Invoice statuses track records; no email delivery or payment processing is implemented.
+Docker packaging was prepared but not executed. The live app is hosted at https://baqir-desk-studio.onrender.com using free Render compute and Turso storage. Email ownership verification, password recovery, managed backups, and operational monitoring remain production work. Invitation binding uses account email, which is not externally verified in this portfolio version. Invoice statuses track records; no email delivery or payment processing is implemented.
 
 ## Free Render + Turso deployment
 
@@ -85,3 +85,4 @@ The current `render.yaml` selects free Render compute and has no paid disk. Conf
 The app uses `RENDER_EXTERNAL_URL` for HTTPS cookie and origin configuration when `APP_ORIGIN` is omitted. It refuses to start on Render if hosted database configuration is missing. Free Render services can sleep when idle; the next request may wait for a cold start. Free database limits still apply, and paid plans/overages must remain disabled.
 
 Local development continues to use Node's built-in SQLite by default. To verify the optional driver locally in PowerShell, set `$env:DATABASE_DRIVER='libsql'` and run `npm run test:server`. This uses a local test database through the same compatible driver. Real remote persistence must also be checked after the service and hosted database are configured.
+
